@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="ru" target-language="en" datatype="plaintext" original="messages" date="2010-12-09T13:29:07Z"
+          product-name="messages">
+        <header/>
+        <body>
+            <trans-unit id="1">
+                <source>Честность</source>
+                <target state="needs-review-translation">Honesty</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Надежность</source>
+                <target>Reliability</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Профессионализм</source>
+                <target>Professionalism</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>ПРОЕКТЫ</source>
+                <target>PROJECTS</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>НАШИ ПАРТНЕРЫ</source>
+                <target>OUR PARTNERS</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>НАШИ КООРДИНАТЫ</source>
+                <target>CONTACT</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Все права на материалы охраняются в соответствии с законодательством Украины.</source>
+                <target>All materials are protected in accordance with Ukrainian legislation.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Союз Инвесторов</source>
+                <target>Union of Investors</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>НОВОСТИ</source>
+                <target>NEWS</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>К списку новостей</source>
+                <target>Back to news list</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>ПОСЛЕДНИЕ НОВОСТИ</source>
+                <target>LATEST NEWS</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Назад</source>
+                <target>Back</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Вперед</source>
+                <target>Next</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Новостей не найдено</source>
+                <target>No news found</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>ОБРАТНАЯ СВЯЗЬ</source>
+                <target>FEEDBACK</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ваше сообщение успешно отправлено!</source>
+                <target>Your message has been successfully sent!</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Отправить</source>
+                <target>Send</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Новости</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Союз инвесторов</source>
+                <target>Union of Investors</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Страница не найдена</source>
+                <target>Page Not Found</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>При заполнении формы были допущены ошибки!</source>
+                <target>When filling out the forms were made mistakes!</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Имя</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Телефон</source>
+                <target>Phone</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Сообщение</source>
+                <target>Message</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Компания</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Форма обращения</source>
+                <target>Form of address</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Фамилия, имя</source>
+                <target>Surname, name</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Наименование проекта, который вызвал интерес</source>
+                <target>Name of the project, which has attracted interest</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Вы готовы выступить</source>
+                <target>You are ready to act</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Примечание</source>
+                <target>Note</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>инвестором</source>
+                <target>investor</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>соинвестором</source>
+                <target>co-investor</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>посредником в привлечении инвестиций для этого проекта</source>
+                <target>mediator in attracting investment for this project</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>экспертом проекта</source>
+                <target>project expert</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>КРАТКАЯ АНКЕТА ИНВЕСТОРА</source>
+                <target>SHORT FORM OF INVESTOR</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Ваша анкета успешно отправлена!</source>
+                <target>Your form was successfully sent!</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

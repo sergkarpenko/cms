@@ -1,0 +1,50 @@
+body{
+    color: #128531;
+    font-family: Arial, sans-serif;
+}
+#login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;    
+    margin-top: -100px;
+    margin-left: -150px;
+    padding:0;
+}
+
+* html #login {position:absolute;}
+
+.row{
+    display: block;
+    margin:10px 0; padding:0;
+}
+
+.row label {
+    width:95px; 
+    float:left;
+    margin-left: 10px;
+}
+
+.title {
+    margin: 5px 0 10px 10px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+input.text{
+    padding: 0.2em
+}
+
+input[type="submit"]{
+    width: 110px;
+    background-color: silver;
+}
+
+html
+{
+  background-color: #eee;
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="EN" target-language="ru" datatype="plaintext" original="messages" date="2010-11-29T19:33:14Z"
+          product-name="messages">
+        <header/>
+        <body>
+            <trans-unit id="1">
+                <source>Page List</source>
+                <target>Список страниц</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Created at</source>
+                <target>Создано</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Updated at</source>
+                <target>Обновлено</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Slug</source>
+                <target>Путь</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>from</source>
+                <target>с</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>to</source>
+                <target>по</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Status</source>
+                <target>Статус</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Name</source>
+                <target>Название</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Are you sure?</source>
+                <target>Вы уверены?</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>is empty</source>
+                <target>пустое значение</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>News List</source>
+                <target>Список новостей</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>The username and/or password is invalid.</source>
+                <target>Логин и/или пароль неправильные</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Username</source>
+                <target>Логин</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Edit News</source>
+                <target>Редактировать новость</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>New News</source>
+                <target>Добавить новость</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Menu List</source>
+                <target>Список элементов меню</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Description</source>
+                <target>Описание</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Content</source>
+                <target>Содержимое</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Required.</source>
+                <target>Обязательное поле</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Filters</source>
+                <target>Фильтр</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Show</source>
+                <target>Просмотр</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

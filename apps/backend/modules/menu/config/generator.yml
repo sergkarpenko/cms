@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Menu
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          menu
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        status_name: {label: "Статус"}
+        position: {label: "Позиция"}
+      list:
+        object_actions: {_edit: ~, _delete: ~}
+        table_method: doSelectI18n
+        display: [=name, url, status_name, position]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

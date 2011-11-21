@@ -1,0 +1,18 @@
+# Project files
+/cache/*
+/log/*
+/web/*_dev.php
+/web/uploads/*
+.idea
+
+# SCM files
+.arch-params
+.bzr
+_darcs
+.git
+.hg
+.monotone
+.svn
+CVS
+_FOSSIL_
+si-invest.fossil

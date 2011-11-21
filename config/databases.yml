@@ -1,0 +1,24 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=sms'
+      username: cms
+      password: cms
+      encoding: utf8
+prod:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=cms'
+      username: cms
+      password: cms
+      encoding: utf8
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=cms_test'
+      username: cms_test
+      password: cms_test
+      encoding: utf8

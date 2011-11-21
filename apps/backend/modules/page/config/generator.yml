@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Page
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             true
+    singular:              ~
+    plural:                ~
+    route_prefix:          page
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        status_name: {label: "Статус"}
+      list:
+        object_actions: {_edit: ~, _delete: ~}
+        table_method: doSelectI18n
+        display: [=slug, name ,status_name, created_at, updated_at]
+      filter:
+        display: [slug]
+      form:
+        display:
+          "Общие": [slug, status]
+<?php foreach (sfConfig::get('app_lang_list') as $lang => $desc): ?>
+          "<?php echo $desc ?>": [<?php echo $lang ?>]
+<?php endforeach ?>
+
+      edit:    ~
+      new:     ~

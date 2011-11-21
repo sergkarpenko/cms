@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="ru" target-language="ru" datatype="plaintext" original="messages" date="2010-12-08T15:12:41Z"
+          product-name="messages">
+        <header/>
+        <body>
+            <trans-unit id="1">
+                <source>Required.</source>
+                <target>Обязательное поле</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Invalid.</source>
+                <target>Неверный формат</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

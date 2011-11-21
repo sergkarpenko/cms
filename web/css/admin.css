@@ -1,0 +1,196 @@
+img{
+    border:0
+}
+.center{
+    text-align: center;
+}
+html{font-size: 101%;}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"Arial","Helvetica","Verdana","sans-serif";
+    margin: 2px 5px;
+    font-weight: normal;
+    font-size: 75%;
+}
+a{font-weight: normal; text-decoration: none}
+
+h2 a{
+    color: #327E04;
+    text-decoration: underline
+}
+
+div.form{
+    width: 500px;
+    margin: 20px;
+}
+
+#panel{
+    padding: 5px 8px;
+}
+
+.standardform{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.standardform *{
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.standardform label {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.standardform label.group {
+    float: none;
+    width: auto;
+    margin: 0 5px 0 2px;
+}
+.standardform label.error {
+    float: none;
+    padding-left: 2px;
+    color: red;
+}
+
+.standardform input.error {
+    border-color: red;
+}
+
+.standardform p {
+    border: 1px solid #aaa;
+    color: #000;
+    padding: 6px 4px;
+    margin: -1px;
+    clear: both;
+}
+
+.standardform .input {
+    border: 1px solid #aaa;
+    width: 400px;
+}
+
+.standardform .errorInput {
+    border: 1px solid red;
+}
+
+.standardform .errorMessage {
+    margin-left: 15px;
+    font-size: 10px;
+    color: red;
+}
+
+.standardform .captcha {
+    float: left;
+}
+
+.standardform .captcha_challenge {
+    float: left;
+}
+
+.standardform .captcha input {
+    float: left;
+    clear: left;
+}
+
+.standardform p .clear {
+    display: block;
+}
+.standardform fieldset{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.filterform *{
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.filterform label {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.filterform p {    
+    color: #000;
+    padding: 1px 10px;
+}
+
+.filterform .input {
+    border: 1px solid #aaa;
+    width: 95%;
+}
+
+.fileLink {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.fileLink:hover {
+    background: #fefeee;
+}
+
+table.data{
+    border-collapse:collapse;
+    margin:1em 0;
+    width:100%;
+}
+table.ui-widget td, table.ui-widget th {
+    border:1px solid #EEEEEE;
+    padding:0.4em 10px;
+    text-align:left;
+}
+table.ui-widget td button.ui-button-icon-only{
+    padding: 5px 0;
+}
+.message{
+    width: 250px;
+    padding: 2px 5px;
+    margin: 5px auto;
+}
+
+.actions{
+    text-align: center !important;
+    width: 150px;
+}
+
+/*
+.ui-button{ padding: 0; }
+.ui-icon{float: left}
+.ui-button-text{margin-left: 0px}
+*/
+span.cke_skin_kama{width:99%;}
+
+fieldset{
+    padding:0 0 1px !important;
+}
+
+.ui-highlight{
+    background-color: #ccccff;
+}
+
+#table tr.ui-state-highlight{
+    height: 30px;
+    background-color:orange;
+    width: 100%
+}
+
+.select{
+    background-color:#fff;
+    border: 1px solid #999;
+}
+
+.option-1{
+    background-color:#666;
+    color: #fff
+}

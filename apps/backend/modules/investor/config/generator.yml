@@ -1,0 +1,39 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           investor
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          investor
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        whois: {label: "Форма обращения"}
+        name: {label: "Фамилия, имя"}
+        project: {label: "Проект"}
+        role: {label: "Готов выступить"}
+        phone: {label: "Телефон"}
+        email: {label: "Email"}
+        message: {label: "Примечание"}
+      list:
+        title: Краткая анкета инвестора
+        layout: stacked
+        display: [project]
+        params: |
+          <b>%%created_at%%</b> <br /> %%whois%% %%name%% <small>%%email%%</small> %%phone%% <br />
+          <b>Проект "%%project%%"</b> - %%role%%<br />
+          %%message%%
+        object_actions: {_show: {label: "Просмотр"}, _delete: ~}
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+      show:
+        title: Краткая анкета инвестора
+        display: [name, project, role, email, phone, message]

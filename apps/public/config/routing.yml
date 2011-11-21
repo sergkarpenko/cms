@@ -1,0 +1,61 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+homepage:
+  url:   /
+  param: { module: page, action: show, name: index }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: page, action: show, name: index }
+  requirements:
+    requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+feedback_successfull:
+  url: /:sf_culture/feedback/successfull
+  param: { module: feedback, action: successfull }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+feedback:
+  url: /:sf_culture/feedback
+  param: { module: feedback, action: index }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+investors_successfull:
+  url: /:sf_culture/investors/successfull
+  param: { module: investors, action: successfull }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+investors:
+  url: /:sf_culture/investors/add
+  param: { module: investors, action: add }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+news:
+  url: /:sf_culture/news
+  param: { module: news, action: index }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+
+news_show:
+  url: /:sf_culture/news/:id
+  param: { module: news, action: show }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+
+page:
+  url: /:sf_culture/:name
+  param: { module: page, action: show }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:sf_culture/:module
+  param: { action: index }
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }
+
+default:
+  url:   /:sf_culture/:module/:action/*
+  requirements: { sf_culture: (?:<?php echo sfConfig::get('app_lang_routes') ?>) }

@@ -1,0 +1,76 @@
+Page:
+  actAs:
+    Sluggable: {fields: [name]}
+    Timestampable: ~
+    I18n:
+      fields: [name, content, title, keywords, description]
+  columns:
+    name: {type: string(255), notnull: true}
+    content: {type: clob}
+    title: {type: string(255)}
+    keywords: {type: clob}
+    description: {type: clob}
+    status: {type: integer}
+
+News:
+  actAs:
+    Sluggable: {fields: [name]}
+    Timestampable: ~
+    I18n:
+      fields: [name, annotation, content]
+  columns:
+    name: {type: string(255), notnull: true}
+    annotation: {type: clob}
+    content: {type: clob}
+    picture: {type: string(255)}
+    status: {type: integer}
+
+Menu:
+  actAs:
+    I18n:
+        fields: [name]
+  columns:
+    name: {type: string(255), notnull: true}
+    url: {type: string(255), notnull: true}    
+    position: {type: integer}
+    status: {type: integer}
+
+Gallery:
+  actAs:
+    I18n:
+        fields: [name]
+  columns:
+    name: {type: string(255), notnull: true}
+    photo: {type: string(255), notnull: true}
+    position: {type: integer}
+
+Block:
+  actAs:
+    I18n:
+        fields: [content]
+  columns:
+    name: {type: string(255), notnull: true}
+    description: {type: string(255), notnull: true}
+    content: {type: clob}
+
+Feedback:
+  actAs:    
+    Timestampable: ~
+  columns:
+    name: {type: string(255), notnull: true}
+    company: {type: string(255), notnull: true}
+    phone: {type: string(255), notnull: true}
+    email: {type: string(255), notnull: true}
+    message: {type: clob}
+
+Investor:
+  actAs:
+    Timestampable: ~
+  columns:
+    whois: {type: string(255), notnull: true}
+    name: {type: string(255), notnull: true}
+    project: {type: string(255), notnull: true}
+    role: {type: string(255), notnull: true}
+    phone: {type: string(255), notnull: true}
+    email: {type: string(255), notnull: true}
+    message: {type: clob}

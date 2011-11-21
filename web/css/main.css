@@ -1,0 +1,219 @@
+html,body{margin:0;padding:0}
+
+body{
+    font: 76% arial,sans-serif;
+    text-align:center;
+    background: url(../images/bg.jpg) repeat-x 0 0 #fcf539;
+    padding: 4px;
+    color: #416f9d;
+}
+img{
+    border: 0;    
+}
+a{
+    color: #416f9d;
+}
+#header #menu{
+    height: 67px;
+    margin: auto 7px;
+    display: table;
+}
+
+#header{
+    clear: both;
+}
+
+#header #menu a{    
+    padding: 0 8px;
+    font-family: Verdana, sans-serif;
+    line-height:15px;
+    font-size: 13px;
+    color:#3a6696;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight:normal;
+}
+
+#header #menu a:hover{
+    background: #fcf539;
+}
+
+* html #header #menu a{
+    text-align: center;
+    float: left;
+    display: block;
+    width: 9%;
+    font-size: 12px;
+    font-weight:normal;
+}
+
+#header #logo{
+    margin: 10px 20px 0 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #fcf539;
+    background: url(../images/bg-logo.png) top right no-repeat;
+}
+
+#slogan{
+    font-size:28px;
+    font-family: Verdana, sans-serif;
+    margin-left: 170px;
+    color: #3a6696;
+}
+
+#container{    
+    background: url(../images/bg-top.jpg) repeat-x #e1e4e6;
+    -moz-border-radius:10px 10px 15px 15px;
+    border-radius:10px;
+    text-align:left;
+    box-shadow:#111 2px 2px 8px;
+    -moz-box-shadow:#111 2px 2px 8px;
+    -webkit-box-shadow:#111 2px 2px 8px;
+    behavior: url(/css/PIE.htc);
+}
+
+#content{
+    padding: 0 10px 0 20px;
+}
+
+* html #content{
+    padding-top: 10px
+} 
+
+#gallery{
+    margin: 15px 0 0 0;
+    border: 4px solid #fcf539;
+}
+#content p{
+    line-height: 1.8;
+    text-align: justify;
+    text-indent:12px;
+}
+
+#content ul{
+    line-height: 1.8;
+}
+
+#content h2, #content h3, #navigation .header{
+    background: url(../images/bg-h.png) bottom left repeat-x;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 15px;
+    margin: 20px 0;
+    font-family: Verdana, sans-serif;
+}
+
+#navigation{
+    padding: 0 20px 0 10px;
+}
+
+* html #navigation{
+    padding-top: 10px
+}
+
+#news{
+    margin-top: 15px;
+    border: 1px solid #fcf539;    
+}
+
+#news .news-header{
+    background: url(../images/sep-news.jpg) bottom left no-repeat;
+    padding: 0 0 25px 10px;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    display: block;
+    margin-top: 15px;
+}
+
+#news .item{
+    clear: both;
+    border-bottom: 1px dotted #fcf539;
+    padding-bottom: 8px;
+    margin: 10px 10px 5px 10px;
+    font-size: 11px;
+}
+
+#news .item img{
+    border: 3px solid #fcf539;
+    float: left;
+    margin: 0 5px 5px 5px;    
+}
+
+#projects .item{
+    border-bottom: 1px dotted #fcf539;
+    padding-bottom: 15px;
+    margin: 20px 10px 5px 10px;
+}
+#partners img{
+    float: left;
+    margin: 5px 10px;
+    border: 3px solid #fcf539;
+}
+* html #partners img{
+    margin: 5px 7px;
+}
+#contacts .wrap{
+    font-size: 10px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+#feedback_form th{
+    width: 80px;
+    padding: 10px 0; 
+}
+
+#feedback_form tfoot{
+    padding-top: 30px;
+    text-align: center;
+}
+#feedback_form tbody input, #feedback_form tbody textarea{
+    border: 1px solid #ACBDDF;
+    width: 400px;
+}
+#feedback_form tbody textarea{
+    height: 200px
+}
+#feedback_form tfoot input{
+    border: 1px solid #ACBDDF;
+    background-color: #ACBDDF;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    font-size: 14px;
+    padding: 2px 4px;
+    color: #416f9d;
+    margin-top: 20px;
+}
+#feedback_form ul.error_list{
+    color: #ff0033;
+    list-style: none;
+    float: right;
+    padding: 0 0 0 5px;
+    margin: 0
+}
+div.error_list{
+    color: #ff0033;
+}
+#footer{
+    background: #0187d0;
+    color: #fff;
+    -moz-border-radius:0 0 8px 8px;
+    border-radius:0 0 8px 8px;
+    behavior: url(/css/PIE.htc);    
+}
+#footer p{
+    text-align: center;
+    margin:0;padding:10px 10px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+#footer a{display:inline;padding:0;color: #fff}
+
+#container{width:999px;margin:0 auto}
+#content{float:left;width:619px}
+#navigation{float:right;width:320px}
+* html #navigation{width:300px}
+#extra{clear:both;width:100%}

@@ -1,0 +1,32 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Панель управления
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:
+    - admin.css
+    - redmond/jquery-ui-1.8.5.custom.css
+    - /js/pnotify/jquery.pnotify.default.css
+    - /js/superfish-1.4.8/css/superfish.css
+
+  javascripts:
+#    - jquery-1.4.3.min.js
+#    - jquery-ui-1.8.5.custom.min.js
+    - superfish-1.4.8/js/hoverIntent.js
+    - superfish-1.4.8/js/superfish.js
+    - pnotify/jquery.pnotify.js
+    - jquery.slug.js
+    - admin.js
+    - ckeditor/ckeditor.js
+
+  has_layout:     true
+  layout:         layout

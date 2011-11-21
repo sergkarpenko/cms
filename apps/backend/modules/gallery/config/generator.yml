@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Gallery
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          gallery
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        object_actions: {_edit: ~, _delete: ~}
+        table_method: doSelectI18n
+        display: [=name, position ]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

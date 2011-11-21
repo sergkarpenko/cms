@@ -1,0 +1,28 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Block
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          block
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        object_actions: {_edit: ~, _delete: ~}
+        display: [=name, description ]
+      filter:  ~
+      form:
+        display:
+          "Общие": [name, description]
+<?php foreach (sfConfig::get('app_lang_list') as $lang => $desc): ?>
+          "<?php echo $desc ?>": [<?php echo $lang ?>]
+<?php endforeach ?>
+      edit:    ~
+      new:     ~

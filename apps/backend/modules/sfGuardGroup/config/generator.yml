@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardGroup
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_group
+    with_doctrine_route:   true
+
+    config:
+      list:
+        object_actions: {_edit: ~, _delete: ~}
+        title: Список групп
+        display: [=name, description, created_at, updated_at]
+
+      form:
+        display: [name, description, users_list, permissions_list]
+
+      edit:
+        title: Редактирование группы "%%name%%"
+
+      new:
+        title: Новая группа

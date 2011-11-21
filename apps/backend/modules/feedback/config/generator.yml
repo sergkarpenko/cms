@@ -1,0 +1,35 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Feedback
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          feedback
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: {label: "Имя"}
+        company: {label: "Компания"}
+        phone: {label: "Телефон"}
+        email: {label: "Email"}
+        message: {label: "Сообщение"}
+      list:
+        title: Обратная связь
+        layout: stacked
+        params: |
+          <b>%%created_at%%</b> <br /> %%name%% (%%company%%) <small>%%email%%</small> %%phone%% <br />
+          %%message%%
+        object_actions: {_show: {label: "Просмотр"}, _delete: ~}
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+      show:
+        title: Обратная связь
+        display: [name, company, email, phone, message]

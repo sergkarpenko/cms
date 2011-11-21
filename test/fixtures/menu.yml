@@ -1,0 +1,18 @@
+Menu:
+  Menu_index:
+    url: 'index'
+    position: '0'
+    status: Активно
+MenuTranslation:
+  MenuTranslation_index_de:
+    Menu: Menu_index
+    name: 'Main'
+    lang: de
+  MenuTranslation_index_en:
+    Menu: Menu_index
+    name: 'Main'
+    lang: en
+  MenuTranslation_index_ru:
+    Menu: Menu_index
+    name: 'Главная'
+    lang: ru

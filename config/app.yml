@@ -1,0 +1,18 @@
+all:  
+  lang:
+    # for admin area
+    list:
+      ru: Русский
+      uk: "Украинский "
+      de: Немецкий
+      en: Английский
+
+    #for flags on frontend
+    original_names:
+      ru: Русский
+      uk: Українська
+      de: Deutsh
+      en: English
+
+    #for routes 
+    routes: "ru|en|de|uk"
